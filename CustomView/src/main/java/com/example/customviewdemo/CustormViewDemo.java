@@ -104,6 +104,10 @@ public class CustormViewDemo extends View {
     }
     private void drawSth(Canvas canvas) {
 
+
+
+
+        ////////
         canvas.drawCircle(mCircleXY, mCircleXY, mRadius, mCirclePaint);
         canvas.drawArc(mRectF, startAngle, sweepAngle,false, mArcPaint);
 
