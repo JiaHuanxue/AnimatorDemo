@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
+
                         case MotionEvent.ACTION_DOWN:
                             //按下时的监听事件
                             //按下时记住x,y的坐标
