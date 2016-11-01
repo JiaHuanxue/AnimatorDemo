@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity  {
                             x = event.getX();
                             y = event.getY();
                             oldMatrix.set(imageView.getImageMatrix());
+
                             break;
                         case MotionEvent.ACTION_MOVE:
                             //移动时的监听事件
