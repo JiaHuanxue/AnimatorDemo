@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity  {
                             //移动时的监听事件
                             //用另一个模型记住按下时的位置
                             newMatrix.set(oldMatrix);
+
                             //移动模型
                             newMatrix.setTranslate(event.getX()-x, event.getY()-y);
                             break;
