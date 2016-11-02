@@ -1,4 +1,4 @@
-package com.example.ontoucheventdemothree;
+package com.example.checkboxdemo;
 
 import org.junit.Test;
 
